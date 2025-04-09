@@ -1,54 +1,120 @@
-
-body {
+/*servicios*/
+.bodyservicios {
     background-color: #021c35;
+    color: #fff;
     font-family: Arial, sans-serif;
-
 }
-.content {
-    flex: 1;
-    padding: 20px;
-    margin: 0 auto;
-    max-width: 800px;
-    background-color: #fff;
+
+
+
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+
+footer a:hover {
+    color: #2c3e50;
+}
+   /* Hacer las imágenes del carrousel más responsivas */
+   .carousel-item img {
+    width: 100%; /* Hacer que la imagen ocupe todo el ancho disponible */
+    height: 500px; /* Establecer una altura fija para mantener las proporciones */
+    object-fit: cover; /* Asegurarse de que la imagen cubra el área sin deformarse */
+}
+
+/* Asegurar que el carrousel no pierda la proporción */
+.carousel-inner {
+    max-width: 100%;
+    max-height: 500px; /* Limitar la altura máxima del carrousel */
+}
+        /* Hacer las imágenes del carrousel más responsivas */
+        .carousel-item img {
+            width: 100%; /* Hacer que la imagen ocupe todo el ancho disponible */
+            height: 500px; /* Establecer una altura fija para mantener las proporciones */
+            object-fit: cover; /* Asegurarse de que la imagen cubra el área sin deformarse */
+        }
+
+        /* Asegurar que el carrousel no pierda la proporción */
+        .carousel-inner {
+            max-width: 100%;
+            max-height: 500px; /* Limitar la altura máxima del carrousel */
+        }
+
+        /* Mejorar el estilo del texto del footer */
+        footer .container-fluid {
+            background-color: #f8f9fa;
+            color: #6c757d;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+/*index.html*/
+
+/*narval*/
+
+
+/* Navbar */
+#navbarindex {
+    background-color: #2306cc; /* Color uniforme para el navbar */
+    z-index: 10; /* Asegura que el navbar esté por encima del contenido */
+}
+
+/* Estilo de los enlaces en el navbar */
+#navbarindex .nav-link {
+    color: rgb(252, 252, 255) !important; /* Los enlaces serán blancos */
+    font-size: 18px;
+    padding: 15px 20px; /* Un poco más de espacio en los enlaces */
+}
+
+/* Hover para los enlaces */
+#navbarindex .nav-link:hover {
+    background-color: #7f7df8; /* Fondo más oscuro cuando el usuario pasa el mouse */
+    color: #5e0505;
+    text-decoration: none;
+}
+
+/* Formulario de contacto */
+.contact-form {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    padding: 30px;
     border-radius: 8px;
-  
- 
-}
-.container-fluid{
-    background-color: #094a8b; /* Clor oscuro (puoedes cambiarlo a cualquier color) */
-}
-.slider-container {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    overflow-x: scroll;
-    flex-direction: y mandatory;
-  }
-  
-.slider-container img {
-    flex: 0 0 100%;
-    width: 100%;
-    scroll-margin-right: 20px;
-    scroll-snap-align: start;
-  }
-.list-group-item {
-    background-color: #f8f9fa; /* Color de fondo de los elementos de la lista */
-    width: 50%;           /* Ajusta el ancho de la imagen al 80% del contenedor */
-    height: auto;        /* Mantiene la proporción de la imagen */
-    border-radius: 15px;  /* Bordes menos redondeados */
-    margin-bottom: 25px;  /* Espacio debajo de la imagen */
-    margin-left: 30%;     /* Margen izquierdo ajustado */
-    margin-right: 30%;    /* Margen derecho ajustado */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-        /* Asegura que el footer esté al final de la página */
- html, body {
-            height: 100%;
-        }
- body {
-            display: flex;
-            flex-direction: column;
-        }
-main {
-            flex: 1;
-        }
+/* Campos del formulario */
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #008080; /* Borde del formulario con el mismo color */
+    border-radius: 5px;
+}
+
+/* Estilo del botón de envío */
+.contact-form .btn-submit {
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form .btn-submit:hover {
+    background-color: #004d40; /* Fondo más oscuro cuando se pasa el mouse */
+}
