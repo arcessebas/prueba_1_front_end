@@ -5,61 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/estilos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css">
-    <title>Sobre Nosotros - Dentisalud</title>
+    <title>Nuestros Servicios</title>
 </head>
-<body class="bodyindex">
+<body class="bodyservicios">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg" id="navbarservis">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Dentisalud</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarindex">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html" target="_blank">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sobre nosotros.html" target="_blank">Sobre Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="servicios.html" target="_blank">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contascto.html" target="_blank">Contacto</a>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-expand-lg " id="navbarindex">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">Dentisalud</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html" target="_blank">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="sobre nosotros.html" target="_blank">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="servicios.html" target="_blank">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contascto.html" target="_blank">Contacto</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <h1 class="text-center text-primary mt-5">Nuestros Servicios Dentales</h1>
+        <p class="text-center lead">En **Dentisalud**, ofrecemos una amplia gama de servicios para garantizar tu salud bucal y bienestar. Con un equipo altamente calificado y tecnología avanzada, cuidamos de tu sonrisa.</p>
+
+        <div class="row my-5">
+            <div class="col-md-6">
+                <h3>Consulta Dental General</h3>
+                <p>Realizamos exámenes completos para evaluar tu salud bucal. Detectamos cualquier problema a tiempo y ofrecemos tratamientos preventivos para que tu boca esté siempre en su mejor estado.</p>
+                <img src="dentaaal.jpg" alt="Consulta dental" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h3>Ortodoncia</h3>
+                <p>La ortodoncia es clave para alinear tus dientes y mejorar tu mordida. Ofrecemos tratamientos con brackets tradicionales o invisibles para un tratamiento cómodo y eficaz.</p>
+                <img src="ortodoncia.jpg" alt="Ortodoncia" class="img-fluid rounded">
             </div>
         </div>
-    </nav>
 
-    <!-- Carrusel de texto -->
-    <div class="container mt-5">
-        <h1 class="text-center text-primary">¿Quiénes somos?</h1>
-        
-        <!-- Carrusel de texto -->
-        <div class="carousel-container">
-            <div class="carousel-content">
-                <!-- Primer texto -->
-                <div class="carousel-item">
-                    <p class="lead">En Dentisalud, somos un equipo de profesionales comprometidos con tu salud bucal. Nuestro objetivo es ofrecerte un servicio de calidad, brindando tratamientos personalizados con tecnología de última generación.</p>
-                </div>
-                <!-- Segundo texto -->
-                <div class="carousel-item">
-                    <p class="lead">En Dentisalud, seguimos los más altos estándares de higiene y cuidado, garantizando que todos nuestros procedimientos sean seguros, eficaces y siempre centrados en el bienestar del paciente.</p>
-                </div>
-                <!-- Tercer texto -->
-                <div class="carousel-item">
-                    <p class="lead">A corto plazo, queremos expandir nuestra presencia en la ciudad, ofreciendo más consultas y servicios. A largo plazo, nos esforzamos por ser una clínica referente en salud bucal a nivel nacional, promoviendo la prevención y el cuidado oral desde edades tempranas.</p>
-                </div>
+        <div class="row my-5">
+            <div class="col-md-6">
+                <h3>Implantes Dentales</h3>
+                <p>Recupera tu sonrisa y funcionalidad con nuestros implantes dentales. Son una solución permanente para dientes perdidos, asegurando una mordida natural y estética.</p>
+                <img src="dentadura.jpg" alt="Implantes dentales" class="img-fluid rounded">
             </div>
-
-            <!-- Flechas para mover el carrusel -->
-            <button class="carousel-arrow prev" onclick="moveSlide(-1)"><i class="fas fa-arrow-left"></i></button>
-            <button class="carousel-arrow next" onclick="moveSlide(1)"><i class="fas fa-arrow-right"></i></button>
+            <div class="col-md-6">
+                <h3>Blanqueamiento Dental</h3>
+                <p>Recupera la blancura de tus dientes con nuestro blanqueamiento dental profesional. Eliminamos manchas y mejoramos la apariencia de tu sonrisa, dejándola radiante y saludable.</p>
+                <img src="blanqueamiento.jpg" alt="Blanqueamiento dental" class="img-fluid rounded">
+            </div>
         </div>
 
+        <div class="row my-5">
+            <div class="col-md-12">
+                <h3>Tratamientos de Conducto</h3>
+                <p>Si tienes problemas con tus muelas o dientes sensibles, el tratamiento de conducto es la solución para eliminar infecciones y salvar el diente afectado. Te ayudamos a mantener tu salud dental sin dolor.</p>
+                <img src="tratamiento_conducto.jpg" alt="Tratamiento de conducto" class="img-fluid rounded">
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
@@ -74,37 +86,5 @@
             </div>
         </div>
     </footer>
-
-    <!-- Scripts -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script>
-        let currentIndex = 0;
-        const slides = document.querySelectorAll('.carousel-item');
-        const totalSlides = slides.length;
-
-        function moveSlide(direction) {
-            slides[currentIndex].classList.remove('active');
-            currentIndex += direction;
-
-            if (currentIndex < 0) {
-                currentIndex = totalSlides - 1;
-            } else if (currentIndex >= totalSlides) {
-                currentIndex = 0;
-            }
-
-            slides[currentIndex].classList.add('active');
-        }
-
-        // Inicializar el carrusel
-        slides[currentIndex].classList.add('active');
-    </script>
 </body>
-</html>
-    
-
-
-
-
-
-
 </html>
