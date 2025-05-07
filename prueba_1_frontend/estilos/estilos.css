@@ -1,0 +1,100 @@
+/*servicios*/
+.bodyservicios {
+    background-color: #021c35;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+.bodyindex {
+    margin: 0;
+    height: 100vh;
+    background:linear-gradient(to bottom, #0704eefa, #063cec, #105be6, #1b17faf6, #2701fcf5, #9b5ef8a1, #b57efca1, #d69ffea1);
+    background-size: cover;}
+/* Asegurar que el carrousel no pierda la proporción */
+.carousel-inner {
+    max-width: 100%;
+    max-height: 500px; /* Limitar la altura máxima del carrousel */
+}
+        /* Hacer las imágenes del carrousel más responsivas */
+        .carousel-item img {
+            width: 100%; /* Hacer que la imagen ocupe todo el ancho disponible */
+            height: 500px; /* Establecer una altura fija para mantener las proporciones */
+            object-fit: cover; /* Asegurarse de que la imagen cubra el área sin deformarse */
+        }
+
+        /* Asegurar que el carrousel no pierda la proporción */
+        .carousel-inner {
+            max-width: 100%;
+            max-height: 500px; /* Limitar la altura máxima del carrousel */
+        }
+
+
+
+
+/*narval*/
+
+
+/* Navbar */
+#navbarindex {
+    background-color: #2306cc; /* Color uniforme para el navbar */
+    z-index: 10; /* Asegura que el navbar esté por encima del contenido */
+}
+
+/* Estilo de los enlaces en el navbar */
+#navbarindex .nav-link {
+
+    color: rgb(253, 253, 253) !important; /* Los enlaces serán blancos */
+    font-size: 18px;
+    padding: 15px 20px; /* Un poco más de espacio en los enlaces */
+}
+
+/* Hover para los enlaces */
+#navbarindex .nav-link:hover {
+    background-color: #090788; /* Fondo más oscuro cuando el usuario pasa el mouse */
+    color: #5e0505;
+    text-decoration: none;
+}
+
+/* Formulario de contacto */
+.contact-form {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Campos del formulario */
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #008080; /* Borde del formulario con el mismo color */
+    border-radius: 5px;
+}
+
+
+
+
+
+.footerindex {
+    color: rgba(2, 2, 253, 0);
+    background-color: rgb(8, 73, 212);
+    stop-color: hsl(199, 94%, 41%);
+    
+    text-align: center;
+    position: relative;
+
+  }
+.footerservicios {
+    color: rgba(2, 2, 253, 0);
+    background-color: rgb(10, 10, 250);;
+
+    text-align: center;
+    position: relative;
+
+  }
+    
